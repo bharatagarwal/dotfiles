@@ -1,0 +1,9 @@
+alias c="clear && printf '\e[3J'"
+alias rmrf='rm -rf'
+alias zshrc='vi ~/.zshrc && source ~/.zshrc'
+alias vimrc='vi ~/.vimrc'
+alias x=exit
+alias aliases='vi ~/.aliases && source ~/.zshrc'
+alias ia='open $1 -a /Applications/iA\ Writer.app'
+alias ical='icalBuddy -iep title,datetime -n eventsToday'
+alias mi=micro
