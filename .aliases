@@ -5,9 +5,11 @@ alias vimrc='vi ~/.vimrc'
 alias x=exit
 alias aliases='vi ~/.aliases && source ~/.zshrc'
 alias ia='open $1 -a /Applications/iA\ Writer.app'
-alias batt='pmset -g batt | grep -Eo "\d+%"'
-
-alias jmt='cd ~/jira-migration-target'
-alias mvnon='mv ~/.m2/settings.xml.bak ~/.m2/settings.xml'
-alias mvnoff='mv ~/.m2/settings.xml ~/.m2/settings.xml.bak'
 alias install='brew install --cask'
+alias bat='bat -pp'
+alias tree2='tree -L 2'
+alias otter='cd /Users/bharat/Dropbox/Apps/Otter'
+ndir() {
+  mkdir $1 && cd $1
+}
+alias nano='/opt/homebrew/bin/nano'
