@@ -1,0 +1,98 @@
+19:12:55: [0:00:00.421] Rainlendar 2.19.1
+19:12:55: Warning: Resource files must have same version number.
+19:12:55: Warning: Resource files must have same version number.
+19:12:55: Warning: Resource files must have same version number.
+19:12:55: Warning: Resource files must have same version number.
+19:12:55: Warning: Resource files must have same version number.
+19:12:55: Warning: Resource files must have same version number.
+19:12:56: Error: can't open file '/Users/bharat/.config/.rainlendar2/license.r2lic' (error 2: No such file or directory)
+07:12:56 PM: Warning: Cannot set locale to language "English (India)".
+07:12:56 PM: [0:00:00.522] Category file: /Users/bharat/.config/.rainlendar2/categories.ini
+07:12:56 PM: [0:00:00.522] Alarms file: /Users/bharat/.config/.rainlendar2/alarms.ini
+07:12:56 PM: [0:00:00.523] Task state file: /Users/bharat/.config/.rainlendar2/taskstates.ini
+07:12:56 PM: [0:00:00.523] Windows file: /Users/bharat/.config/.rainlendar2/windows.ini
+07:12:56 PM: [0:00:00.568] Reading skin /Applications/Rainlendar2-Pro.app/Contents/MacOS/skins/Shadow4.r2skin
+07:12:56 PM: [0:00:00.753] Caching skin Shadow4 to file: /Users/bharat/.config/.rainlendar2/skincache.ini
+07:12:56 PM: [0:00:00.757] Reading skin /Applications/Rainlendar2-Pro.app/Contents/MacOS/skins/Shadow4.r2skin
+07:12:56 PM: [0:00:00.959] WARNING: The element already exists "default.trayicon".
+07:12:56 PM: [0:00:00.959] WARNING: The element already exists "default.trayicon.large".
+07:12:56 PM: Error: can't open file '/Users/bharat/.config/.rainlendar2/license.r2lic' (error 2: No such file or directory)
+07:12:56 PM: [0:00:00.971] Local Time: Ticks: 1680442976 Date: 02-04-2023 Time: 19:12:56 DST: No
+07:12:56 PM: [0:00:00.972]   UTC Time: Ticks: 1680442976 Date: 02-04-2023 Time: 13:42:56 DST: No
+07:12:56 PM: [0:00:00.972] Paths:
+07:12:56 PM: [0:00:00.972] 	Program: /Applications/Rainlendar2-Pro.app/Contents/MacOS/
+07:12:56 PM: [0:00:00.972] 	Resources: /Applications/Rainlendar2-Pro.app/Contents/MacOS/resources/
+07:12:56 PM: [0:00:00.972] 	Skins (program): /Applications/Rainlendar2-Pro.app/Contents/MacOS/skins/
+07:12:56 PM: [0:00:00.972] 	Skins (config): /Users/bharat/.config/.rainlendar2/skins/
+07:12:56 PM: [0:00:00.972] 	Plugins: /Applications/Rainlendar2-Pro.app/Contents/MacOS/plugins/
+07:12:56 PM: [0:00:00.972] 	Locale (program): /Applications/Rainlendar2-Pro.app/Contents/MacOS/locale/
+07:12:56 PM: [0:00:00.972] 	Locale (config): /Users/bharat/.config/.rainlendar2/locale/
+07:12:56 PM: [0:00:00.972] 	Scripts (program): /Applications/Rainlendar2-Pro.app/Contents/MacOS/scripts/
+07:12:56 PM: [0:00:00.972] 	Scripts (config): /Users/bharat/.config/.rainlendar2/scripts/
+07:12:56 PM: [0:00:00.972] 	Backup: /Users/bharat/.config/.rainlendar2/backups/
+07:12:56 PM: [0:00:00.972] 	Config: /Users/bharat/.config/.rainlendar2/rainlendar2.ini
+07:12:56 PM: [0:00:00.972] Available plugins:
+07:12:56 PM: [0:00:00.973] 	iCalendar Format (1.14.173)
+07:12:56 PM: [0:00:00.973] 	Google Tasks (1.4.173)
+07:12:56 PM: [0:00:00.973] 	Google Calendar (v3) (1.5.173)
+07:12:56 PM: [0:00:00.973] 	Network Shared Calendar (1.13.173)
+07:12:56 PM: [0:00:00.973] 	Remember The Milk (1.7.173)
+07:12:56 PM: [0:00:00.973] 	Comma Separated Values (1.3.173)
+07:12:56 PM: [0:00:00.973] 	Toodledo (1.5.173)
+07:12:56 PM: [0:00:00.973] 	CalDAV Calendar (1.8.173)
+07:12:56 PM: [0:00:00.973] 	Office365 (1.4.173)
+07:12:56 PM: [0:00:00.975] ERROR: Unable to parse script "helpers.lua": error loading module 'lfs' from file './lfs.so':
+	dlopen(./lfs.so, 0x0006): tried: './lfs.so' (relative path not allowed in hardened program), '/System/Volumes/Preboot/Cryptexes/OS./lfs.so' (no such file), '/usr/lib/./lfs.so' (no such file, not in dyld cache), './lfs.so' (relative path not allowed in hardened program)
+07:12:56 PM: Warning: iCCP: cHRM chunk does not match sRGB
+07:12:56 PM: Warning: iCCP: cHRM chunk does not match sRGB
+07:12:56 PM: Warning: iCCP: cHRM chunk does not match sRGB
+07:12:56 PM: Warning: iCCP: cHRM chunk does not match sRGB
+07:12:57 PM: Error: File '/Users/bharat/.config/.rainlendar2/backups/20230402-Rainlendar2Backup.zip' couldn't be removed (error 2: No such file or directory)
+07:12:57 PM: Error: can't open file '/Users/bharat/.config/.rainlendar2/Default.ics' (error 2: No such file or directory)
+07:12:57 PM: [0:00:01.506] WARNING: Unable to open file: /Users/bharat/.config/.rainlendar2/Default.ics
+07:12:57 PM: [0:00:01.506] Created backup file "/Users/bharat/.config/.rainlendar2/backups/20230402-Rainlendar2Backup.zip"
+07:13:00 PM: [0:00:04.457] WARNING: Default: The file "/Users/bharat/.config/.rainlendar2/Default.ics" does not exist.
+07:13:02 PM: [0:00:06.979] Reading skin /Applications/Rainlendar2-Pro.app/Contents/MacOS/skins/Chromophore.r2skin
+07:13:02 PM: [0:00:07.007] Caching skin Chromophore to file: /Users/bharat/.config/.rainlendar2/skincache.ini
+07:13:02 PM: [0:00:07.015] Reading skin /Applications/Rainlendar2-Pro.app/Contents/MacOS/skins/Savannah.r2skin
+07:13:02 PM: [0:00:07.031] Caching skin Savannah to file: /Users/bharat/.config/.rainlendar2/skincache.ini
+07:13:08 PM: Error: can't open file '/Users/bharat/.config/.rainlendar2/license.r2lic' (error 2: No such file or directory)
+07:13:08 PM: Warning: Cannot set locale to language "English (India)".
+07:13:08 PM: [0:00:12.876] Category file: /Users/bharat/.config/.rainlendar2/categories.ini
+07:13:08 PM: [0:00:12.876] Alarms file: /Users/bharat/.config/.rainlendar2/alarms.ini
+07:13:08 PM: [0:00:12.877] Task state file: /Users/bharat/.config/.rainlendar2/taskstates.ini
+07:13:08 PM: [0:00:12.877] Windows file: /Users/bharat/.config/.rainlendar2/windows.ini
+07:13:08 PM: [0:00:12.917] Reading skin /Applications/Rainlendar2-Pro.app/Contents/MacOS/skins/Shadow4.r2skin
+07:13:08 PM: [0:00:13.114] WARNING: The element already exists "default.trayicon".
+07:13:08 PM: [0:00:13.115] WARNING: The element already exists "default.trayicon.large".
+07:13:08 PM: Error: can't open file '/Users/bharat/.config/.rainlendar2/license.r2lic' (error 2: No such file or directory)
+07:13:08 PM: [0:00:13.130] Local Time: Ticks: 1680442988 Date: 02-04-2023 Time: 19:13:08 DST: No
+07:13:08 PM: [0:00:13.130]   UTC Time: Ticks: 1680442988 Date: 02-04-2023 Time: 13:43:08 DST: No
+07:13:08 PM: [0:00:13.130] Paths:
+07:13:08 PM: [0:00:13.130] 	Program: /Applications/Rainlendar2-Pro.app/Contents/MacOS/
+07:13:08 PM: [0:00:13.130] 	Resources: /Applications/Rainlendar2-Pro.app/Contents/MacOS/resources/
+07:13:08 PM: [0:00:13.130] 	Skins (program): /Applications/Rainlendar2-Pro.app/Contents/MacOS/skins/
+07:13:08 PM: [0:00:13.130] 	Skins (config): /Users/bharat/.config/.rainlendar2/skins/
+07:13:08 PM: [0:00:13.130] 	Plugins: /Applications/Rainlendar2-Pro.app/Contents/MacOS/plugins/
+07:13:08 PM: [0:00:13.130] 	Locale (program): /Applications/Rainlendar2-Pro.app/Contents/MacOS/locale/
+07:13:08 PM: [0:00:13.130] 	Locale (config): /Users/bharat/.config/.rainlendar2/locale/
+07:13:08 PM: [0:00:13.130] 	Scripts (program): /Applications/Rainlendar2-Pro.app/Contents/MacOS/scripts/
+07:13:08 PM: [0:00:13.130] 	Scripts (config): /Users/bharat/.config/.rainlendar2/scripts/
+07:13:08 PM: [0:00:13.130] 	Backup: /Users/bharat/.config/.rainlendar2/backups/
+07:13:08 PM: [0:00:13.130] 	Config: /Users/bharat/.config/.rainlendar2/rainlendar2.ini
+07:13:08 PM: [0:00:13.131] Available plugins:
+07:13:08 PM: [0:00:13.131] 	iCalendar Format (1.14.173)
+07:13:08 PM: [0:00:13.131] 	Google Tasks (1.4.173)
+07:13:08 PM: [0:00:13.131] 	Google Calendar (v3) (1.5.173)
+07:13:08 PM: [0:00:13.131] 	Network Shared Calendar (1.13.173)
+07:13:08 PM: [0:00:13.131] 	Remember The Milk (1.7.173)
+07:13:08 PM: [0:00:13.131] 	Comma Separated Values (1.3.173)
+07:13:08 PM: [0:00:13.131] 	Toodledo (1.5.173)
+07:13:08 PM: [0:00:13.131] 	CalDAV Calendar (1.8.173)
+07:13:08 PM: [0:00:13.131] 	Office365 (1.4.173)
+07:13:08 PM: [0:00:13.133] ERROR: Unable to parse script "helpers.lua": error loading module 'lfs' from file './lfs.so':
+	dlopen(./lfs.so, 0x0006): tried: './lfs.so' (relative path not allowed in hardened program), '/System/Volumes/Preboot/Cryptexes/OS./lfs.so' (no such file), '/usr/lib/./lfs.so' (no such file, not in dyld cache), './lfs.so' (relative path not allowed in hardened program)
+07:13:08 PM: Warning: iCCP: cHRM chunk does not match sRGB
+07:13:08 PM: Warning: iCCP: cHRM chunk does not match sRGB
+07:13:08 PM: Warning: iCCP: cHRM chunk does not match sRGB
+07:13:08 PM: Warning: iCCP: cHRM chunk does not match sRGB

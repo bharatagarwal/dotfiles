@@ -1,0 +1,4 @@
+start=1228.736786
+vf=@autocrop-crop:lavfi-crop=w=1056:h=360:x=224:y=180
+vid=no
+sub-pos=58

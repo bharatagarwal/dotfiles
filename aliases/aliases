@@ -1,0 +1,85 @@
+#! /bin/bash
+
+alias c="clear && printf '\e[3J'"
+alias rmrf='rm -rf'
+alias zshrc='vi ~/.zshrc && source ~/.zshrc'
+alias vimrc='vi ~/.vimrc'
+alias x=exit
+alias aliases='vi ~/aliases/aliases && source ~/.zshrc'
+alias install='brew install --cask'
+alias uninstall='brew uninstall --cask'
+alias bcs='brew cleanup -s'
+alias grm='go run main.go'
+alias gbm='go build main.go'
+alias quiet='unset HISTFILE'
+alias repos='cd ~/repos'
+
+gitl() {
+	git log --graph --pretty=format:'%Cred%h%Creset - %Cblue%an%Creset %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+}
+
+manp() {
+	man "$1" | col -b | bat -pp -l man
+}
+
+soak() {
+    countdown 2m55s
+    countdown -say 5s
+    countdown 55s
+    countdown -say 5s
+    
+    countdown 2m55s
+    countdown -say 5s
+    countdown 55s
+    countdown -say 5s
+
+    
+    countdown 2m55s
+    countdown -say 5s
+    countdown 55s
+    countdown -say 5s
+}
+
+ia() {
+	open "$1" -a /Applications/iA\ Writer.app
+}
+
+copy() {
+	pbcopy <"$1"
+}
+
+ndir() {
+	mkdir "$1" && cd "$1" || exit
+}
+
+gomod() {
+	go mod init "$1"
+	go mod tidy
+}
+
+gb() {
+	go build .
+}
+
+gr() {
+	go run "$1"
+}
+
+man() {
+	LESS_TERMCAP_md=$'\e[01;31m' \
+		LESS_TERMCAP_me=$'\e[0m' \
+		LESS_TERMCAP_se=$'\e[0m' \
+		LESS_TERMCAP_so=$'\e[01;44;33m' \
+		LESS_TERMCAP_ue=$'\e[0m' \
+		LESS_TERMCAP_us=$'\e[01;32m' \
+		command man "$@"
+}
+
+fzd() {
+	filename=$(fzf)
+	cd $(dirname $filename)
+}
+
+pp() {
+	python3 "$@"
+}

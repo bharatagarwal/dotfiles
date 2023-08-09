@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/Users/bharat/csi/prep/golang/xkcd'
+let g:netrw_dirhist_7='/Users/bharat/csi/systems'
+let g:netrw_dirhist_6='/Users/bharat/c/.git'
+let g:netrw_dirhist_5='/Users/bharat/analyser'
+let g:netrw_dirhist_4='/Users/bharat/go'
+let g:netrw_dirhist_3='/Users/bharat/gooey/analyser'
+let g:netrw_dirhist_2='/Users/bharat/gooey'
+let g:netrw_dirhist_1='/Users/bharat/.config/shell_gpt'
+let g:netrw_dirhist_0='/Users/bharat/.config/revChatGPT'
+let g:netrw_dirhist_9='/Users/bharat/repos/ChatGPTProxy'
