@@ -1,6 +1,6 @@
 set relativenumber
 set number
-syntax on 
+syntax on
 
 let &t_SI.="\e[5 q" "SI = INSERT mode
 let &t_SR.="\e[4 q" "SR = REPLACE mode
@@ -14,6 +14,8 @@ autocmd Filetype yml setlocal tabstop=2
 set tabstop=4
 set shiftwidth=4
 set mouse=a
+nmap ; <Plug>(cosco-commaOrSemiColon)
+syntax match todo "//"
 
 let g:netrw_banner = 0
 
@@ -323,7 +325,7 @@ map <leader>s? z=
 noremap <Leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
 
 " Quickly open a buffer for scribble
-map <leader>q :e ~/buffer<cr>
+map <leader>q :wq<cr>
 
 " Quickly open a markdown buffer for scribble
 map <leader>x :e ~/buffer.md<cr>
@@ -387,7 +389,7 @@ endfunction
 
 colorscheme github_dark_dimmed
 
-set clipboard=unnamedplus
+set clipboard=unnamed
 
 set ttymouse=sgr
 set updatetime=500
@@ -398,10 +400,53 @@ nmap <silent> <buffer> <leader>h : <C-u>call GOVIMHover()<CR>
 inoremap <leader>' <C-X><C-O>
 set completeopt-=preview
 
-if has('python')
-  map <C-K> :pyf /opt/homebrew/Cellar/clang-format/16.0.6/share/clang/clang-format.py<cr>
-  imap <C-K> <c-o>:pyf /opt/homebrew/Cellar/clang-format/16.0.6/share/clang/clang-format.py<cr>
-elseif has('python3')
-  map <C-K> :py3f /opt/homebrew/Cellar/clang-format/16.0.6/share/clang/clang-format.py<cr>
-  imap <C-K> <c-o>:py3f /opt/homebrew/Cellar/clang-format/16.0.6/share/clang/clang-format.py<cr>
-endif
+" if has('python')
+"  map <C-K> :pyf /opt/homebrew/Cellar/clang-format/16.0.6/share/" clang/clang-format.py<cr>
+"  imap <C-K> <c-o>:pyf /opt/homebrew/Cellar/clang-format/16.0.6/share/clang/clang-format.py<cr>
+" elseif has('python3')
+" map <C-K> :py3f /opt/homebrew/Cellar/clang-format/16.0.6/share/clang/clang-format.py<cr>
+"  imap <C-K> <c-o>:py3f /opt/homebrew/Cellar/clang-format/16.0.6/share/clang/clang-format.py<cr>
+" endif
+
+nnoremap <Down> gj
+nnoremap <Up> gk
+inoremap <Down> <C-o>gj
+inoremap <Up> <C-o>gk
+
+let g:ale_enabled = 0
+
+" let g:ale_linters = {
+" \ 'c': ['clangtidy'],
+" \}
+
+" let g:ale_fixers = {
+" \ 'c': ['clang-format'],
+" \}
+"
+highlight Normal     ctermbg=NONE guibg=NONE
+highlight LineNr     ctermbg=NONE guibg=NONE
+highlight SignColumn ctermbg=NONE guibg=NONE
+highlight FoldColumn ctermbg=NONE guibg=NONE
+
+nnoremap <leader>p :!python %<CR>
+nnoremap <leader>i :!python -i %<CR>
+command! -nargs=? Py :!python <args>
+nnoremap <silent> <leader>l :call matchadd('Search', '\%'.line('.').'l')<cr>
+nnoremap <silent> <leader>m :call clearmatches()<cr>
+set fillchars=eob:\ 
+set display=lastline  
+nnoremap <silent> ]<Space> :<C-u>put =repeat(nr2char(10),v:count)<Bar>execute "'[-1"<CR>
+nnoremap <silent> [<Space> :<C-u>put!=repeat(nr2char(10),v:count)<Bar>execute "']+1"<CR>
+
+set pyx=3
+
+function! MyTabComplete()
+  let col = col('.') - 1
+  if !col || getline('.')[col - 1] =~# '\s'
+    return "\<Tab>"
+  else
+    return "\<C-n>"
+  endif
+endfunction
+
+inoremap <silent><expr> <Tab> MyTabComplete()
