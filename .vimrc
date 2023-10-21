@@ -450,3 +450,4 @@ function! MyTabComplete()
 endfunction
 
 inoremap <silent><expr> <Tab> MyTabComplete()
+nnoremap <silent> # ^i# <Esc>
